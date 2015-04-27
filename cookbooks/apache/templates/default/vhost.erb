@@ -1,0 +1,7 @@
+#vhost template file
+NameVirtualHost *:80
+<VirtualHost *:80>
+    ServerName <%= @domain %>
+    DocumentRoot <%= @document_root %>
+</VirtualHost>
+	
